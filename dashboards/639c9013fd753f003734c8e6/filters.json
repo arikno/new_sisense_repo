@@ -309,29 +309,6 @@
                     "panel": "scope",
                     "table": "Area",
                     "title": "Area"
-                },
-                {
-                    "collapsed": true,
-                    "column": "Resource",
-                    "datasource": {
-                        "address": "LocalHost",
-                        "database": "aAzureSQLIAAaEC",
-                        "fullname": "localhost/AzureSQL EC",
-                        "id": "localhost_aAzureSQLIAAaEC",
-                        "live": false,
-                        "title": "AzureSQL EC"
-                    },
-                    "datatype": "text",
-                    "dim": "[Resource.Resource]",
-                    "filter": {
-                        "all": true,
-                        "explicit": false,
-                        "multiSelection": true
-                    },
-                    "isDashboardFilter": true,
-                    "merged": true,
-                    "table": "Resource",
-                    "title": "Resource"
                 }
             ],
             "model": {
