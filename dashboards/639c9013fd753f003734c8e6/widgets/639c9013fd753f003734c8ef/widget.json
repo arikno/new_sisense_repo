@@ -1,0 +1,292 @@
+{
+    "_dataSourcePermission": "owner",
+    "_toDisableOptionsList": {
+        "widgets": {
+            "duplicate": false
+        }
+    },
+    "dashboardid": "639c9013fd753f003734c8e6",
+    "datasource": {
+        "address": "LocalHost",
+        "database": "aAzureSQLIAAaEC",
+        "fullname": "localhost/AzureSQL EC",
+        "id": "localhost_aAzureSQLIAAaEC",
+        "live": false,
+        "title": "AzureSQL EC"
+    },
+    "desc": null,
+    "drillToDashboardConfig": {
+        "dashboardIds": [
+        ],
+        "displayDashboardsPane": false,
+        "displayFilterPane": true,
+        "displayHeaderRow": false,
+        "displayToolbarRow": false,
+        "drillToDashboardByName": false,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drilledDashboardDisplayType": 2,
+        "drilledDashboardPrefix": "",
+        "drilledDashboardsFolderPrefix": "",
+        "excludeFilterDims": [
+        ],
+        "forceZeroInsteadNull": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "includeFilterDims": [
+        ],
+        "mergeTargetDashboardFilters": true,
+        "modalWindowResize": false,
+        "resetDashFiltersAfterJTD": true,
+        "sameCubeRestriction": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "showFolderNameOnMenuSelection": false,
+        "showJTDIcon": true,
+        "volatile": true
+    },
+    "lastOpened": null,
+    "metadata": {
+        "ignore": {
+            "all": false,
+            "dimensions": [
+            ],
+            "ids": [
+            ]
+        },
+        "panels": [
+            {
+                "items": [
+                    {
+                        "format": {
+                            "continuous": false
+                        },
+                        "instanceid": "64089-C957-E5",
+                        "jaql": {
+                            "column": "Username",
+                            "datatype": "text",
+                            "dim": "[User.Username]",
+                            "merged": true,
+                            "table": "User",
+                            "title": "Username"
+                        }
+                    }
+                ],
+                "name": "categories"
+            },
+            {
+                "items": [
+                    {
+                        "format": {
+                            "color": {
+                                "type": "color"
+                            },
+                            "mask": {
+                                "abbreviations": {
+                                    "b": true,
+                                    "k": true,
+                                    "m": true,
+                                    "t": true
+                                },
+                                "decimals": "auto",
+                                "isdefault": true,
+                                "separated": true,
+                                "type": "number"
+                            }
+                        },
+                        "instanceid": "0D0DE-99E0-5F",
+                        "jaql": {
+                            "context": {
+                                "[455B5-3FC]": {
+                                    "agg": "sum",
+                                    "column": "bookingCount",
+                                    "datatype": "numeric",
+                                    "dim": "[Bookings.bookingCount]",
+                                    "table": "Bookings",
+                                    "title": "Total bookingCount"
+                                }
+                            },
+                            "formula": "[455B5-3FC]",
+                            "sort": "desc",
+                            "title": "# Bookings",
+                            "type": "measure"
+                        }
+                    }
+                ],
+                "name": "values"
+            },
+            {
+                "items": [
+                ],
+                "name": "break by"
+            },
+            {
+                "items": [
+                    {
+                        "instanceid": "ED939-CC0F-DD",
+                        "jaql": {
+                            "collapsed": false,
+                            "column": "Username",
+                            "datasource": {
+                                "address": "LocalHost",
+                                "database": "aAzureSQLIAAaEC",
+                                "fullname": "localhost/AzureSQL EC",
+                                "id": "localhost_aAzureSQLIAAaEC",
+                                "live": false,
+                                "title": "AzureSQL EC"
+                            },
+                            "datatype": "text",
+                            "dim": "[User.Username]",
+                            "filter": {
+                                "by": {
+                                    "context": {
+                                        "[BBD74-E4A]": {
+                                            "column": "bookingCount",
+                                            "datatype": "numeric",
+                                            "dim": "[Bookings.bookingCount]",
+                                            "table": "Bookings",
+                                            "title": "bookingCount"
+                                        }
+                                    },
+                                    "formula": "SUM([BBD74-E4A])",
+                                    "title": "# Bookings",
+                                    "type": "measure"
+                                },
+                                "rankingMessage": "# Bookings",
+                                "top": 20
+                            },
+                            "merged": true,
+                            "table": "User",
+                            "title": "Username"
+                        }
+                    }
+                ],
+                "name": "filters"
+            }
+        ],
+        "usedFormulasMapping": {
+        }
+    },
+    "oid": "639c9013fd753f003734c8ef",
+    "options": {
+        "autoUpdateOnEveryChange": true,
+        "dashboardFiltersMode": "select",
+        "drillToAnywhere": true,
+        "previousScrollerLocation": {
+            "max": 19,
+            "min": 0
+        },
+        "selector": true,
+        "selectorLocked": false,
+        "triggersDomready": true
+    },
+    "prevSortObjects": [
+    ],
+    "style": {
+        "dataLimits": {
+            "categoriesCapacity": 100000,
+            "seriesCapacity": 50
+        },
+        "legend": {
+            "enabled": false,
+            "position": "bottom"
+        },
+        "lineWidth": {
+            "width": "bold"
+        },
+        "markers": {
+            "enabled": false,
+            "fill": "filled",
+            "size": "small"
+        },
+        "narration": {
+            "aggregation": "sum",
+            "display": "above",
+            "enabled": false,
+            "format": "bullets",
+            "labels": [
+                {
+                    "id": "username",
+                    "plural": "Username",
+                    "singular": "Username",
+                    "title": "Username"
+                }
+            ],
+            "up_sentiment": "good",
+            "verbosity": "medium"
+        },
+        "navigator": {
+            "enabled": false
+        },
+        "seriesLabels": {
+            "enabled": false,
+            "labels": {
+                "enabled": false,
+                "stacked": false,
+                "stackedPercentage": false,
+                "types": {
+                    "count": false,
+                    "percentage": false,
+                    "relative": false,
+                    "totals": false
+                }
+            },
+            "rotation": 0
+        },
+        "xAxis": {
+            "enabled": true,
+            "gridLines": true,
+            "isIntervalEnabled": false,
+            "labels": {
+                "enabled": true,
+                "rotation": 0
+            },
+            "ticks": true,
+            "title": {
+                "enabled": false
+            },
+            "x2Title": {
+                "enabled": false
+            }
+        },
+        "y2Axis": {
+            "enabled": false,
+            "gridLines": false,
+            "hideMinMax": false,
+            "inactive": true,
+            "isIntervalEnabled": false,
+            "labels": {
+                "enabled": true,
+                "rotation": 0
+            },
+            "logarithmic": false,
+            "templateMainYHasGridLines": true,
+            "ticks": true,
+            "title": {
+                "enabled": false
+            }
+        },
+        "yAxis": {
+            "enabled": true,
+            "gridLines": true,
+            "hideMinMax": false,
+            "inactive": false,
+            "isIntervalEnabled": true,
+            "labels": {
+                "enabled": true,
+                "rotation": 0
+            },
+            "logarithmic": false,
+            "ticks": true,
+            "title": {
+                "enabled": false
+            }
+        }
+    },
+    "subtype": "bar/classic",
+    "title": "Bookings by User (Top 20)",
+    "type": "chart/bar"
+}

@@ -1,0 +1,45 @@
+{
+    "alwaysIncluded": true,
+    "datamodel": "656487d99ce02508a913f140",
+    "elasticubeTitle": "AzureSQL EC",
+    "id": "63a09bc8fd753f003734c936",
+    "levels": [
+        {
+            "_id": "63a09bc8fd753f003734c935",
+            "column": "Site Group",
+            "datatype": "text",
+            "dim": "[Site Group.Site Group]",
+            "index": 0,
+            "table": "Site Group",
+            "title": "Site Group"
+        },
+        {
+            "_id": "63a09bcbfd753f003734c938",
+            "column": "Site",
+            "datatype": "text",
+            "dim": "[Site.Site]",
+            "index": 1,
+            "table": "Site",
+            "title": "Site"
+        },
+        {
+            "_id": "63a09bcffd753f003734c93a",
+            "column": "Area",
+            "datatype": "text",
+            "dim": "[Area.Area]",
+            "index": 2,
+            "table": "Area",
+            "title": "Area"
+        },
+        {
+            "_id": "63a09bd2fd753f003734c93c",
+            "column": "Resource",
+            "datatype": "text",
+            "dim": "[Resource.Resource]",
+            "index": 3,
+            "table": "Resource",
+            "title": "Resource"
+        }
+    ],
+    "title": "Site Group"
+}
