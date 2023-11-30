@@ -1,0 +1,11 @@
+{
+    "connection": "./connection.json",
+    "database": "prismConfig",
+    "elasticube": "2f3b57c7-e0e2-4832-b9a9-a29d298bef27",
+    "oid": "3e7674e2-7af2-422d-a63c-e2c77e5363cf",
+    "schemaName": "prismConfig",
+    "tables": [
+        "./3c9a7fbc-cef0-43fc-b039-f8a11645d6f0/table.json"
+    ],
+    "type": "extract"
+}

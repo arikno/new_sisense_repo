@@ -1,0 +1,10 @@
+{
+    "connection": "./connection.json",
+    "database": "prismWebDB",
+    "elasticube": "2f3b57c7-e0e2-4832-b9a9-a29d298bef27",
+    "oid": "4c93ce1a-47ef-4c13-961f-45d04dcb1fda",
+    "schemaName": "prismWebDB",
+    "tables": [
+    ],
+    "type": "extract"
+}

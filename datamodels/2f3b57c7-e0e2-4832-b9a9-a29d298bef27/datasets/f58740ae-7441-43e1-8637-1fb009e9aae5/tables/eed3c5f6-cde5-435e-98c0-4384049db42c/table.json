@@ -1,0 +1,69 @@
+{
+    "buildBehavior": {
+        "accumulativeConfig": null,
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": true,
+            "id": "user_id",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "user_id",
+            "oid": "5f947feb-9d70-42e8-ada1-c125a2accd2d",
+            "precision": 255,
+            "scale": 0,
+            "size": 255,
+            "type": 18
+        },
+        {
+            "hidden": true,
+            "id": "user_name",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "user_name",
+            "oid": "c0c6803d-1b97-430c-99ea-a943fe6af629",
+            "precision": 255,
+            "scale": 0,
+            "size": 255,
+            "type": 18
+        },
+        {
+            "hidden": true,
+            "id": "last_activity",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "last_activity",
+            "oid": "977c5562-ab42-4c82-94f1-daab5c9d2df0",
+            "precision": 26,
+            "scale": 6,
+            "size": 26,
+            "type": 4
+        },
+        {
+            "hidden": true,
+            "id": "role_id",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "role_id",
+            "oid": "31e11273-97e3-41f8-b360-8ee21082836c",
+            "precision": 255,
+            "scale": 0,
+            "size": 255,
+            "type": 18
+        }
+    ],
+    "configOptions": {
+        "importQuery": "SELECT\n    U._id AS user_id,\n    U.\"userName\" AS user_name,\n    U.\"lastActivity\" AS last_activity,\n    U.\"roleId\" AS role_id\nFROM\n    \"prismWebDB\".\"users\" U"
+    },
+    "dataset": "f58740ae-7441-43e1-8637-1fb009e9aae5",
+    "hidden": true,
+    "id": "tq_m0oIoZphb",
+    "isMaterialized": false,
+    "name": "Dim_users",
+    "oid": "eed3c5f6-cde5-435e-98c0-4384049db42c",
+    "schemaName": "prismWebDB",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

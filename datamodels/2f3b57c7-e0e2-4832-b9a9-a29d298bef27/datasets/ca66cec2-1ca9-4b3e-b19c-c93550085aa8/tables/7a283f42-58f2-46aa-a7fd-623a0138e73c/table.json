@@ -1,0 +1,83 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "030ffae5-ee1a-44cd-89f6-64cdeb0a1200",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ec_name",
+            "oid": "a14a0411-503e-46fe-8a99-85831368973a",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "a6480870-e936-4d70-903f-a961a6252d81",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "table_name",
+            "oid": "e2ecacff-79aa-40d1-a6fa-ff35bc145079",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "a7c4fece-133e-4075-b6f6-ceb7c01109ba",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "column_name",
+            "oid": "d387bf89-181c-41b0-9531-80300914b6fd",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "4beda91f-c4d1-4db8-aff2-12353054e554",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "join_table",
+            "oid": "fa1f9c23-ef80-478f-8c1f-8224248eac9f",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "7e6f991c-9389-4ff6-846d-0c76d6921d16",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "column_name_joined_table",
+            "oid": "84c9cc21-d281-4a79-8005-1efd957923a7",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        }
+    ],
+    "dataset": "ca66cec2-1ca9-4b3e-b19c-c93550085aa8",
+    "description": null,
+    "expression": {
+        "expression": "./table.sql",
+        "isDatabaseDialect": false,
+        "oid": "3041ce50-c2bd-49a1-8cf5-3ccf14e516b4"
+    },
+    "hidden": false,
+    "id": "Table_relations",
+    "isMaterialized": null,
+    "name": "Table_relations",
+    "oid": "7a283f42-58f2-46aa-a7fd-623a0138e73c",
+    "tags": null,
+    "tupleTransformations": [
+    ],
+    "type": "custom"
+}

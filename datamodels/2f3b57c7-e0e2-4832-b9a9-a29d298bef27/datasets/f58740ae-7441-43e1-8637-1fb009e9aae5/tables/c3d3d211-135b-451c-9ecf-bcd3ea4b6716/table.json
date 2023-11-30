@@ -1,0 +1,93 @@
+{
+    "buildBehavior": {
+        "accumulativeConfig": null,
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": true,
+            "id": "dashboard_id",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "dashboard_id",
+            "oid": "bab6d5d4-5172-471f-a056-7adf61afc2b6",
+            "precision": 255,
+            "scale": 0,
+            "size": 255,
+            "type": 18
+        },
+        {
+            "hidden": true,
+            "id": "dashboard_external_id",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "dashboard_external_id",
+            "oid": "8d017d40-b5c5-4b78-9455-cd7c9cd58781",
+            "precision": 255,
+            "scale": 0,
+            "size": 255,
+            "type": 18
+        },
+        {
+            "hidden": true,
+            "id": "dashboard_name",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "dashboard_name",
+            "oid": "fc1aaf74-c9ab-4fc0-9e24-f673b2d0fb11",
+            "precision": 255,
+            "scale": 0,
+            "size": 255,
+            "type": 18
+        },
+        {
+            "hidden": true,
+            "id": "datasource_title",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "datasource_title",
+            "oid": "65f8a77f-532f-433d-b0d7-369de7ed9dd8",
+            "precision": 255,
+            "scale": 0,
+            "size": 255,
+            "type": 18
+        },
+        {
+            "hidden": true,
+            "id": "Owner",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Owner",
+            "oid": "ad1bbf2c-20b9-41d8-ac2f-9eb28d338c56",
+            "precision": 255,
+            "scale": 0,
+            "size": 255,
+            "type": 18
+        },
+        {
+            "hidden": true,
+            "id": "lastPublish",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "lastPublish",
+            "oid": "b15f9f36-f4f7-4023-82fb-5efaa359340f",
+            "precision": 26,
+            "scale": 6,
+            "size": 26,
+            "type": 4
+        }
+    ],
+    "configOptions": {
+        "importQuery": "\r\nSELECT     \r\n    D._id AS dashboard_id,\r\n    D.oid AS dashboard_external_id,\r\n    D.\"title\" AS dashboard_name,\r\n    D.datasource_title,\r\n    U.\"userName\" AS Owner,\r\n    D.lastPublish\r\n\r\nFROM \"prismWebDB\".\"dashboards\" D\r\nJOIN \"prismWebDB\".\"users\" U ON D.Owner = U._id\r\n"
+    },
+    "dataset": "f58740ae-7441-43e1-8637-1fb009e9aae5",
+    "hidden": true,
+    "id": "tq_taHjWNGvL",
+    "isMaterialized": false,
+    "name": "dashboards",
+    "oid": "c3d3d211-135b-451c-9ecf-bcd3ea4b6716",
+    "schemaName": "prismWebDB",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

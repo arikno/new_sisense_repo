@@ -1,0 +1,34 @@
+{
+    "buildBehavior": {
+        "accumulativeConfig": null,
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": true,
+            "id": "66075b11-e54e-4da1-b957-cf018411b7d6",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "dashboard_external_id",
+            "oid": "33ed4cb8-4b61-41b9-9012-7d991c4fc879",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        }
+    ],
+    "dataset": "540fa008-726c-4f39-9ade-5a7fc666d5f3",
+    "expression": {
+        "expression": "./table.sql",
+        "isDatabaseDialect": false,
+        "oid": "d4c4c988-0455-40b2-a28f-8119e4307275"
+    },
+    "hidden": true,
+    "id": "Dashboard_ids",
+    "isMaterialized": null,
+    "name": "Dashboard_ids",
+    "oid": "9430a8dd-eee0-405d-b2e2-d8324c88ff17",
+    "tupleTransformations": [
+    ],
+    "type": "custom"
+}

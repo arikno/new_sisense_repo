@@ -1,0 +1,69 @@
+{
+    "buildBehavior": {
+        "accumulativeConfig": null,
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": true,
+            "id": "GroupID",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "GroupID",
+            "oid": "7e353cee-352b-4f48-a379-01004448d500",
+            "precision": 255,
+            "scale": 0,
+            "size": 255,
+            "type": 18
+        },
+        {
+            "hidden": true,
+            "id": "GroupName",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "GroupName",
+            "oid": "d6b84876-bd5c-409f-a9de-a6035c41a683",
+            "precision": 255,
+            "scale": 0,
+            "size": 255,
+            "type": 18
+        },
+        {
+            "hidden": true,
+            "id": "last_update",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "last_update",
+            "oid": "39988c33-1467-4dce-bd3c-ea4dfde2bde3",
+            "precision": 26,
+            "scale": 6,
+            "size": 26,
+            "type": 4
+        },
+        {
+            "hidden": true,
+            "id": "roleId",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "roleId",
+            "oid": "20d87c73-761f-4283-9376-1de736f189bd",
+            "precision": 255,
+            "scale": 0,
+            "size": 255,
+            "type": 18
+        }
+    ],
+    "configOptions": {
+        "importQuery": "SELECT\n    GRP.\"_id\" AS GroupID,\n    GRP.\"name\" AS GroupName,\n    GRP.lastUpdated as last_update,\n    GRP.roleId\nFROM\n    \"prismWebDB\".\"groups\" GRP"
+    },
+    "dataset": "f58740ae-7441-43e1-8637-1fb009e9aae5",
+    "hidden": true,
+    "id": "tq_HRtgWAxy4",
+    "isMaterialized": false,
+    "name": "groups",
+    "oid": "bf2e62bf-6e11-42e1-89bd-4120bef90da1",
+    "schemaName": "prismWebDB",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

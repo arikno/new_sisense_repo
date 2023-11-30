@@ -1,0 +1,82 @@
+{
+    "buildBehavior": {
+        "accumulativeConfig": null,
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "690bb32a-ff6e-4a54-a9a5-37fce058cf79",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "dashboard_external_id",
+            "oid": "5bfebeb8-c16f-4b3f-bea5-17c96b989d5d",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "3cc90be9-c49f-4372-9ec7-cc6555154e8f",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "object_type",
+            "oid": "39723d4c-d02c-4891-b210-cb63d426a54d",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "1e16c2d8-af04-4156-9f12-eeeb98555ca5",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "user_group_id",
+            "oid": "b3d360ca-24a0-4649-b78f-dd4e38accea0",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "d4d71619-3517-4282-978c-5bf970ca9026",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "fake_date_num",
+            "oid": "c12982c3-0e94-45a3-ab8d-83519951220a",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "a16df8b8-8808-49a3-aa2e-a92ff52f6a94",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "shared_counter",
+            "oid": "926a0d91-359e-42ec-8fec-70f22369ae58",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        }
+    ],
+    "dataset": "2344c602-58a1-44fe-a545-b2ae420e9f28",
+    "expression": {
+        "expression": "./table.sql",
+        "isDatabaseDialect": false,
+        "oid": "f6b68b14-4528-471c-a21d-1beed2f161f5"
+    },
+    "hidden": false,
+    "id": "Fact_Shared_Dashboards",
+    "isMaterialized": null,
+    "name": "Fact_Shared_Dashboards",
+    "oid": "febeff1f-a445-4b16-bba8-612335ae4492",
+    "tupleTransformations": [
+    ],
+    "type": "custom"
+}

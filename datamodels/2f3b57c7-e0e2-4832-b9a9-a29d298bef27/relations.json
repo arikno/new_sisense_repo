@@ -1,0 +1,65 @@
+[
+    {
+        "columns": [
+            {
+                "column": "239c1c1d-2aa7-4272-84d7-eccaba110779",
+                "dataset": "3042c80f-a855-4394-8adf-a30558d07d78",
+                "table": "4fd14fe7-88a6-4ef6-a055-cddce132a81e"
+            },
+            {
+                "column": "17b0d6ac-929f-41de-b2b3-f496ffb824a3",
+                "dataset": "84d8b455-e675-479f-a9ad-09d367116876",
+                "table": "2954461b-794b-48f8-9c52-1a18859ad528"
+            },
+            {
+                "column": "c12982c3-0e94-45a3-ab8d-83519951220a",
+                "dataset": "2344c602-58a1-44fe-a545-b2ae420e9f28",
+                "table": "febeff1f-a445-4b16-bba8-612335ae4492"
+            }
+        ],
+        "elasticube": "2f3b57c7-e0e2-4832-b9a9-a29d298bef27",
+        "oid": "68e0e9ad-70ef-488f-bcad-65c8bc757baa"
+    },
+    {
+        "columns": [
+            {
+                "column": "49e410d3-3a2a-4522-85cc-3a8e2e884e22",
+                "dataset": "f77166e5-2e7f-485c-b167-606697cf98e2",
+                "table": "7d9e899f-7c3e-471d-abf2-25e54d9d27ce"
+            },
+            {
+                "column": "98912d43-3432-487c-8888-0d195aec447b",
+                "dataset": "84d8b455-e675-479f-a9ad-09d367116876",
+                "table": "2954461b-794b-48f8-9c52-1a18859ad528"
+            },
+            {
+                "column": "5bfebeb8-c16f-4b3f-bea5-17c96b989d5d",
+                "dataset": "2344c602-58a1-44fe-a545-b2ae420e9f28",
+                "table": "febeff1f-a445-4b16-bba8-612335ae4492"
+            }
+        ],
+        "elasticube": "2f3b57c7-e0e2-4832-b9a9-a29d298bef27",
+        "oid": "cc7f4606-caa7-4636-baab-ec14a5a290bd"
+    },
+    {
+        "columns": [
+            {
+                "column": "34e267dc-99bb-4d86-8415-b9ae23c500a1",
+                "dataset": "2e828f27-6fc5-4f60-b699-cb4816a72a95",
+                "table": "4b1df259-cd78-4206-9a1b-052fd4ec9be7"
+            },
+            {
+                "column": "e4affd22-1e85-4fe9-8d25-2714c04a345d",
+                "dataset": "84d8b455-e675-479f-a9ad-09d367116876",
+                "table": "2954461b-794b-48f8-9c52-1a18859ad528"
+            },
+            {
+                "column": "b3d360ca-24a0-4649-b78f-dd4e38accea0",
+                "dataset": "2344c602-58a1-44fe-a545-b2ae420e9f28",
+                "table": "febeff1f-a445-4b16-bba8-612335ae4492"
+            }
+        ],
+        "elasticube": "2f3b57c7-e0e2-4832-b9a9-a29d298bef27",
+        "oid": "a9b3ff1c-7576-46c4-99fe-0bf50000093b"
+    }
+]

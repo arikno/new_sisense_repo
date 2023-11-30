@@ -1,0 +1,106 @@
+{
+    "buildBehavior": {
+        "accumulativeConfig": null,
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "b66dd1d4-e7b8-4c24-803b-94ae2f4e58f9",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "user_id",
+            "oid": "34e267dc-99bb-4d86-8415-b9ae23c500a1",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "2ba9123a-9eb1-456b-b59f-a346b51355a4",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "user_name",
+            "oid": "6dae5c8b-4d89-485b-a316-74f07b7de025",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "b9b287a2-a4aa-4d03-9762-e79b73f297a8",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "last_activity",
+            "oid": "f83203a7-9f6a-406b-91c3-95a3c8ec97ea",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 19
+        },
+        {
+            "hidden": false,
+            "id": "5e2c4f95-a370-4c60-a1a0-404154389f64",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "role_id",
+            "oid": "5cfb5102-b699-4556-a784-310b7e48ebc6",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "0e3c600b-c28e-422f-ae83-518d6cad0501",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "role",
+            "oid": "ab8f4794-dfc7-4d0b-b4a2-1f8daaed127e",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "19e04052-c8b2-4bcd-acc5-2aeb9b70d605",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Source",
+            "oid": "5ec0dc8d-ebdc-4f0b-aa95-f271b0ac0ced",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "51423b27-2887-4776-99dd-f8d87d7fca77",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "is_active",
+            "oid": "3ea63aaa-ccb1-4e18-8bc0-781688224640",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        }
+    ],
+    "dataset": "2e828f27-6fc5-4f60-b699-cb4816a72a95",
+    "expression": {
+        "expression": "./table.sql",
+        "isDatabaseDialect": false,
+        "oid": "bcbc0156-9d6a-483f-9a82-2f80cee03121"
+    },
+    "hidden": false,
+    "id": "Dim_user_group",
+    "isMaterialized": null,
+    "name": "Dim_user_group",
+    "oid": "4b1df259-cd78-4206-9a1b-052fd4ec9be7",
+    "tupleTransformations": [
+    ],
+    "type": "custom"
+}

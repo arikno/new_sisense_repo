@@ -1,0 +1,20 @@
+{
+    "connection": "./connection.json",
+    "database": "prismWebDB",
+    "elasticube": "2f3b57c7-e0e2-4832-b9a9-a29d298bef27",
+    "oid": "f58740ae-7441-43e1-8637-1fb009e9aae5",
+    "schemaName": "prismWebDB",
+    "tables": [
+        "./00c75663-2eaa-454f-9941-2d2bb2e29a0c/table.json",
+        "./298d9909-2281-4a66-ba24-96d38f7a667e/table.json",
+        "./71a240fc-45d3-4cee-a194-5f4f59e2ab19/table.json",
+        "./bf2e62bf-6e11-42e1-89bd-4120bef90da1/table.json",
+        "./c3d3d211-135b-451c-9ecf-bcd3ea4b6716/table.json",
+        "./c79005ef-908a-4833-bf47-413aa7cb5dff/table.json",
+        "./e2e6376f-9804-43e4-8a63-e9fd55cad1c5/table.json",
+        "./edcc074a-5c7e-43b4-8228-f8971135d461/table.json",
+        "./eed3c5f6-cde5-435e-98c0-4384049db42c/table.json",
+        "./f92cc023-e42a-4589-b5d7-0861dd48435c/table.json"
+    ],
+    "type": "extract"
+}

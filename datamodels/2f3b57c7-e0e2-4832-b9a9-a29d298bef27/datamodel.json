@@ -1,0 +1,48 @@
+{
+    "buildDestination": {
+        "database": null,
+        "destination": "elasticube",
+        "schema": null
+    },
+    "datasets": [
+        "./03431742-c487-45f6-b7e2-954dec1141bd/dataset.json",
+        "./0b4e4863-26b4-484b-b3a8-e6fd045ced5f/dataset.json",
+        "./13f4081c-7fc2-4a38-924f-d755dde73f56/dataset.json",
+        "./2344c602-58a1-44fe-a545-b2ae420e9f28/dataset.json",
+        "./2e828f27-6fc5-4f60-b699-cb4816a72a95/dataset.json",
+        "./3042c80f-a855-4394-8adf-a30558d07d78/dataset.json",
+        "./3e7674e2-7af2-422d-a63c-e2c77e5363cf/dataset.json",
+        "./4875a406-a3b7-4ef1-b418-1258aa7bbfc2/dataset.json",
+        "./4c93ce1a-47ef-4c13-961f-45d04dcb1fda/dataset.json",
+        "./540fa008-726c-4f39-9ade-5a7fc666d5f3/dataset.json",
+        "./55fe2323-95b6-4ced-8cda-ed47d6543770/dataset.json",
+        "./5a98ffd5-ec02-4951-b068-53e528c76f94/dataset.json",
+        "./832375fd-6856-40cb-a6fc-dd84b2c9c9d2/dataset.json",
+        "./84d8b455-e675-479f-a9ad-09d367116876/dataset.json",
+        "./bac9f223-1422-43cb-bc2e-41e7e75de2ce/dataset.json",
+        "./c0942dfc-4adf-4f13-908e-676722e753a1/dataset.json",
+        "./ca66cec2-1ca9-4b3e-b19c-c93550085aa8/dataset.json",
+        "./d336e81a-c1eb-4fef-bf34-00e15730fa11/dataset.json",
+        "./db79a302-94bc-4e55-b9ba-c431c25a4b1d/dataset.json",
+        "./e5905290-f789-47fe-ad45-a1e2b11f91c2/dataset.json",
+        "./e8f304a4-489e-4e27-a341-c473e9d4d0a1/dataset.json",
+        "./f02f565e-d499-438a-8068-f3f67773d757/dataset.json",
+        "./f58740ae-7441-43e1-8637-1fb009e9aae5/dataset.json",
+        "./f77166e5-2e7f-485c-b167-606697cf98e2/dataset.json"
+    ],
+    "experiments": {
+    },
+    "fiscal": "system",
+    "lastSuccessfulManualBuildStartTime": "2023-10-01T18:17:04.944Z",
+    "modelStatistics": {
+        "enableModelStatistics": false,
+        "maxTablesPerCollection": null,
+        "recollectStatsInterval": null
+    },
+    "oid": "2f3b57c7-e0e2-4832-b9a9-a29d298bef27",
+    "relationType": "regular",
+    "relations": "./relations.json",
+    "schemaId": null,
+    "title": "governance",
+    "type": "extract"
+}
