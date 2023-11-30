@@ -72,23 +72,6 @@
                                 "pxlWidth": 275.391,
                                 "stretchable": false,
                                 "width": 20
-                            },
-                            {
-                                "elements": [
-                                    {
-                                        "defaultWidth": 512,
-                                        "height": "120px",
-                                        "maxHeight": 1028,
-                                        "maxWidth": 1028,
-                                        "minHeight": 64,
-                                        "minWidth": 48,
-                                        "widgetid": "639c9013fd753f003734c8ea"
-                                    }
-                                ],
-                                "index": 4,
-                                "pxlWidth": 275.391,
-                                "stretchable": false,
-                                "width": 20
                             }
                         ]
                     },
