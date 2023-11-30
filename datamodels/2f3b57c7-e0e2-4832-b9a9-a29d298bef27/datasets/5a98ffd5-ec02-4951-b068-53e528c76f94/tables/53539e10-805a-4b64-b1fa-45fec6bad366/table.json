@@ -1,0 +1,70 @@
+{
+    "buildBehavior": {
+        "accumulativeConfig": null,
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": true,
+            "id": "b346aa80-0a2c-4e5d-b11b-cd1acca4639a",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "user_id",
+            "oid": "60129012-23cf-4d2b-9dfa-d1c4034b8383",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": true,
+            "id": "ae02b6a2-7028-49de-83d7-a7d6a92906ef",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "user_group",
+            "oid": "73598201-f048-4c19-a88e-feca66648303",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": true,
+            "id": "91a70979-7d2c-4e29-8609-03e76e9b27ee",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "group_name",
+            "oid": "daecec03-b402-4ce8-8ce8-a05523981445",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": true,
+            "id": "f4c7178e-4163-4ed1-a721-088f09e4c654",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "group_source",
+            "oid": "e697492d-5d50-4811-a508-ac9495a967cb",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        }
+    ],
+    "dataset": "5a98ffd5-ec02-4951-b068-53e528c76f94",
+    "expression": {
+        "expression": "./table.sql",
+        "isDatabaseDialect": false,
+        "oid": "4bb75b14-baef-4b75-bfa9-8607b2a65419"
+    },
+    "hidden": true,
+    "id": "Dim_user_groups_mapped",
+    "isMaterialized": null,
+    "name": "Dim_user_groups_mapped",
+    "oid": "53539e10-805a-4b64-b1fa-45fec6bad366",
+    "tupleTransformations": [
+    ],
+    "type": "custom"
+}

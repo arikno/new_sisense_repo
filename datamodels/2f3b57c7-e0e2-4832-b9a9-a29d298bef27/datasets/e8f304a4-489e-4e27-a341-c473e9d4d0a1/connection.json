@@ -1,0 +1,9 @@
+{
+    "createdByUser": true,
+    "fileName": "usage-2023-10-1.csv",
+    "oid": "cd7a655a-4d66-4857-b943-93e5545eac2e",
+    "provider": "CSV",
+    "schema": "/opt/sisense/storage/usage/usage-2023-10-1.csv",
+    "uiParams": {
+    }
+}

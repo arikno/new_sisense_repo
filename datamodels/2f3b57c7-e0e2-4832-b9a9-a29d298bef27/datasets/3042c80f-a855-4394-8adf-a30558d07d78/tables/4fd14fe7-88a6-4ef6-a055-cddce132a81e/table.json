@@ -1,0 +1,46 @@
+{
+    "buildBehavior": {
+        "accumulativeConfig": null,
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "fe1ee523-f21b-4e31-ab9f-71b8086d1a23",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "DateNum",
+            "oid": "239c1c1d-2aa7-4272-84d7-eccaba110779",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "a214150d-c54e-4389-921d-ad6f4afdd934",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Date",
+            "oid": "8e8344be-ca8c-444c-a66e-4933478df6b5",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 19
+        }
+    ],
+    "dataset": "3042c80f-a855-4394-8adf-a30558d07d78",
+    "expression": {
+        "expression": "./table.sql",
+        "isDatabaseDialect": false,
+        "oid": "34bfd358-c358-41e3-a1ae-0c72ab6ebcec"
+    },
+    "hidden": false,
+    "id": "Dim_date",
+    "isMaterialized": null,
+    "name": "Dim_date",
+    "oid": "4fd14fe7-88a6-4ef6-a055-cddce132a81e",
+    "tupleTransformations": [
+    ],
+    "type": "custom"
+}

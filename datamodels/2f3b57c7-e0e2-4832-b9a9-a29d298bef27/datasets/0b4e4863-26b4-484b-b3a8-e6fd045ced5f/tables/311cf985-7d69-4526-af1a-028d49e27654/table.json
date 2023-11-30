@@ -1,0 +1,216 @@
+{
+    "buildBehavior": {
+        "accumulativeConfig": null,
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": true,
+            "id": "DateNum",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "DateNum",
+            "oid": "2b82719b-f0aa-4497-9c12-3bdcb764c9a0",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "hidden": true,
+            "id": "Date",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Date",
+            "oid": "f9208829-72c1-4186-ab03-520e5d792c61",
+            "precision": 0,
+            "scale": 0,
+            "size": 50,
+            "type": 4
+        },
+        {
+            "hidden": true,
+            "id": "YearMonthNum",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "YearMonthNum",
+            "oid": "5a8af8e0-a4ab-4c17-a085-a8b5e3d2deb6",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "hidden": true,
+            "id": "Calendar_Quarter",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Calendar_Quarter",
+            "oid": "fe6e9e05-807e-4e4c-a0c6-b563a7a849a3",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": true,
+            "id": "MonthNum",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "MonthNum",
+            "oid": "c6fefa7b-94a1-4ade-94c6-2bcfecbaa055",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "hidden": true,
+            "id": "MonthName",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "MonthName",
+            "oid": "8e9ef300-664f-4599-90e9-f77cfb98aedb",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": true,
+            "id": "MonthShortName",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "MonthShortName",
+            "oid": "452bb796-4611-4481-9651-948fee484cee",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": true,
+            "id": "WeekNum",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "WeekNum",
+            "oid": "cf7e5ab0-8ef6-44ea-9270-451233722dd8",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "hidden": true,
+            "id": "DayNumOfYear",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "DayNumOfYear",
+            "oid": "e567255a-ae15-4bbd-a6b2-1ef0c1bb7e18",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "hidden": true,
+            "id": "DayNumOfMonth",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "DayNumOfMonth",
+            "oid": "908e1a01-3adc-49f6-aa32-354554631cb0",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "hidden": true,
+            "id": "DayNumOfWeek",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "DayNumOfWeek",
+            "oid": "3cd7d37b-879e-4105-b613-61bb8e8751e8",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "hidden": true,
+            "id": "DayName",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "DayName",
+            "oid": "f4e90820-f2cc-4fff-ad10-50f5cdfcf724",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": true,
+            "id": "DayShortName",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "DayShortName",
+            "oid": "5aacf5e3-4da6-4d3e-9820-56e98b355cef",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": true,
+            "id": "Quarter",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Quarter",
+            "oid": "c5437e94-b2c7-4f0f-9f3f-10e29cd98615",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "hidden": true,
+            "id": "YearQuarterNum",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "YearQuarterNum",
+            "oid": "3a9586e9-c69f-4399-8c24-7ff1e639726c",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "hidden": true,
+            "id": "DayNumOfQuarter",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "DayNumOfQuarter",
+            "oid": "1efd105f-1ef2-4919-997a-533935dba590",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        }
+    ],
+    "configOptions": {
+        "columnsDateTimePatterns": "{}",
+        "culture": "en-US",
+        "fieldsInFirstRow": true,
+        "staticRange": ""
+    },
+    "dataset": "0b4e4863-26b4-484b-b3a8-e6fd045ced5f",
+    "hidden": true,
+    "id": "DimDates",
+    "isMaterialized": false,
+    "name": "DimDates",
+    "oid": "311cf985-7d69-4526-af1a-028d49e27654",
+    "schemaName": "/opt/sisense/storage/datasets/storage/74/744aa990-5b82-4cb7-9a15-b5d5b210e797.xlsx",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

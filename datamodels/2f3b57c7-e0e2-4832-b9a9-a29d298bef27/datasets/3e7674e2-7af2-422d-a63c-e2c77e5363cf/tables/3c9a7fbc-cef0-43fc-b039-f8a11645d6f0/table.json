@@ -1,0 +1,57 @@
+{
+    "buildBehavior": {
+        "accumulativeConfig": null,
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": true,
+            "id": "id",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "id",
+            "oid": "7285568e-8686-4fbc-b879-de5be9fe1810",
+            "precision": 255,
+            "scale": 0,
+            "size": 255,
+            "type": 18
+        },
+        {
+            "hidden": true,
+            "id": "role",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "role",
+            "oid": "180f79cd-654a-461d-a07a-c1acbd8f130f",
+            "precision": 255,
+            "scale": 0,
+            "size": 255,
+            "type": 18
+        },
+        {
+            "hidden": true,
+            "id": "role_name",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "role_name",
+            "oid": "9d4ab956-931e-42dd-a15d-2f8c4418c58a",
+            "precision": 255,
+            "scale": 0,
+            "size": 255,
+            "type": 18
+        }
+    ],
+    "configOptions": {
+        "importQuery": "select\n    _id as id,\n    displayName as role,\n    name as role_name\nfrom roles"
+    },
+    "dataset": "3e7674e2-7af2-422d-a63c-e2c77e5363cf",
+    "hidden": true,
+    "id": "tq_UzMfYBqn0",
+    "isMaterialized": false,
+    "name": "Dim_roles",
+    "oid": "3c9a7fbc-cef0-43fc-b039-f8a11645d6f0",
+    "schemaName": "prismConfig",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

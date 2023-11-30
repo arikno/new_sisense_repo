@@ -1,0 +1,46 @@
+{
+    "buildBehavior": {
+        "accumulativeConfig": null,
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": true,
+            "id": "7fe72b9a-b22f-40b3-baa8-812f882f7911",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "dashboardId",
+            "oid": "72b0ad19-4b2c-4adb-88c0-fb25f8dda39b",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": true,
+            "id": "aca52481-cfb1-4c7e-8c6f-b32fb4b25ec6",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "last_usage_dashbaord",
+            "oid": "2fbe372b-6261-44fe-84b7-eb1f665cb6ef",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 19
+        }
+    ],
+    "dataset": "03431742-c487-45f6-b7e2-954dec1141bd",
+    "expression": {
+        "expression": "./table.sql",
+        "isDatabaseDialect": false,
+        "oid": "6c05bd53-f2fc-48f9-8266-954cbf3e6359"
+    },
+    "hidden": true,
+    "id": "Last_usage_date_dashboard",
+    "isMaterialized": null,
+    "name": "Last_usage_date_dashboard",
+    "oid": "c0e2102d-ef45-40e4-a9cc-b41605382553",
+    "tupleTransformations": [
+    ],
+    "type": "custom"
+}

@@ -1,0 +1,81 @@
+{
+    "buildBehavior": {
+        "accumulativeConfig": null,
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "model_oid",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "model_oid",
+            "oid": "20b1b1cf-c592-4d78-9f97-b829c37979bc",
+            "precision": 255,
+            "scale": 0,
+            "size": 255,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "ec_name",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ec_name",
+            "oid": "c9d20d09-40f1-4331-9819-ce12af556b48",
+            "precision": 255,
+            "scale": 0,
+            "size": 255,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "_id",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "_id",
+            "oid": "a0390b35-bf8e-4b88-a333-278e1ccbd321",
+            "precision": 255,
+            "scale": 0,
+            "size": 255,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "table_oid",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "table_oid",
+            "oid": "11b3ae31-4911-4d2c-bea5-b02e4239ed82",
+            "precision": 255,
+            "scale": 0,
+            "size": 255,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "table_name",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "table_name",
+            "oid": "dbed2e50-40e2-48c0-bcfa-4ec88881c576",
+            "precision": 255,
+            "scale": 0,
+            "size": 255,
+            "type": 18
+        }
+    ],
+    "configOptions": {
+        "importQuery": "select\r\n    ec.[oid] as model_oid,\r\n    ec.[title] as ec_name,\r\n    ecr.[_id],\r\n    dt.oid as table_oid,\r\n    dt.[name] as table_name\r\nfrom\r\n    \"prismWebDB\".[elasticubes] ec\r\nleft join \"prismWebDB\".[elasticubeRelations] ecr on ec.oid = ecr.[elasticube]\r\nleft join \"prismWebDB\".[elasticubeRelations_columns] ecrc on ecr.[_id] = ecrc.[_id]\r\nleft join \"prismWebDB\".[datasetTables] dt on dt.[oid] = ecrc.[table]\r\nleft join \"prismWebDB\".[datasetTables_columns] dc on dc.[oid] = ecrc.[column]\r\nleft join (SELECT\r\n            ec.[oid] as model_oid,\r\n            ec.[title] as elasticube_name,\r\n            ecr.[_id],\r\n            ecrdt.[oid] as table_oid,\r\n            ecrdt.[name] as table_name,\r\n            ecrdtc.[arguments_oid] as column_oid,\r\n            ecrdtc.[arguments_name] as column_name,\r\n            ecrdtc.[elasticubeRevisions_datasets_tables_dim1_idx],\r\n            ecrdtc.[elasticubeRevisions_datasets_dim1_idx],\r\n            ecrdtc.[arguments_type] as column_type\r\n        FROM \"prismWebDB\".[elasticubes] ec\r\n        left join \"prismWebDB\".[elasticubeRevisions] ecr on ecr.[elasticube_oid] = ec.[oid]\r\n        left join \"prismWebDB\".[elasticubeRevisions_datasets_tables] ecrdt on ecrdt.[_id] = ecr.[_id]\r\n        inner join \"prismWebDB\".[elasticubeRevisions_datasets_tables_tuple-transformations] ecrdtc\r\n            on ecrdtc.[_id] = ecrdt.[_id]\r\n            and ecrdtc.[elasticubeRevisions_datasets_dim1_idx] = ecrdt.[elasticubeRevisions_datasets_dim1_idx]\r\n            and ecrdtc.[elasticubeRevisions_datasets_tables_dim1_idx] = ecrdt.[elasticubeRevisions_datasets_tables_dim1_idx]) fcc on fcc.[column_oid] = ecrc.[column]\r\n"
+    },
+    "dataset": "f58740ae-7441-43e1-8637-1fb009e9aae5",
+    "hidden": false,
+    "id": "tq_c8rNZYwKm",
+    "isMaterialized": false,
+    "name": "datasets",
+    "oid": "f92cc023-e42a-4589-b5d7-0861dd48435c",
+    "schemaName": "prismWebDB",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

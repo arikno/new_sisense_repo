@@ -1,0 +1,8 @@
+{
+    "createdByUser": true,
+    "oid": "c6fcce3f-f499-45d1-8f37-da8d0e3d260b",
+    "provider": "mongodb",
+    "schema": "prismWebDB",
+    "uiParams": {
+    }
+}

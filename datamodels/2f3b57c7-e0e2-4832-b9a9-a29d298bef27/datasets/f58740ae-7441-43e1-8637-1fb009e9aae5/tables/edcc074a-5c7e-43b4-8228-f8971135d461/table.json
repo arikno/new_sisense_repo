@@ -1,0 +1,57 @@
+{
+    "buildBehavior": {
+        "accumulativeConfig": null,
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": true,
+            "id": "user_id",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "user_id",
+            "oid": "062287ed-265d-4372-97e0-425c751c176a",
+            "precision": 255,
+            "scale": 0,
+            "size": 255,
+            "type": 18
+        },
+        {
+            "hidden": true,
+            "id": "user_group",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "user_group",
+            "oid": "ee0e2984-bd2e-4c1f-b98e-4ac0bb67d160",
+            "precision": 255,
+            "scale": 0,
+            "size": 255,
+            "type": 18
+        },
+        {
+            "hidden": true,
+            "id": "group_name",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "group_name",
+            "oid": "a6d401ba-d871-4a8a-8165-2346f0e62d48",
+            "precision": 255,
+            "scale": 0,
+            "size": 255,
+            "type": 18
+        }
+    ],
+    "configOptions": {
+        "importQuery": "select\n    ug._id as user_id,\n    ug.users_groups as user_group,\n    g.name as group_name\nfrom\n    users_groups ug\nleft join\n    groups g\non g._id = ug.users_groups\nwhere g.name not in ('Everyone','Admin')"
+    },
+    "dataset": "f58740ae-7441-43e1-8637-1fb009e9aae5",
+    "hidden": true,
+    "id": "tq_ZV7Xz3yCj",
+    "isMaterialized": false,
+    "name": "user_group",
+    "oid": "edcc074a-5c7e-43b4-8228-f8971135d461",
+    "schemaName": "prismWebDB",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

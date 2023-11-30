@@ -1,0 +1,119 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "ee6bf50a-16e6-46ee-a11a-5f993a14d1dc",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "dashboard_external_id",
+            "oid": "49e410d3-3a2a-4522-85cc-3a8e2e884e22",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "f8bee02b-53f7-4fb4-8bcb-0903bbcc4189",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "dashboard_name",
+            "oid": "2b047963-2b44-493c-be55-71c0d83d1da3",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "d08e8328-5ef7-4f44-b352-5d1c5c3120cc",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Owner",
+            "oid": "e53e6b43-9c3c-46f7-82c0-d164b74d7b71",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "6207837a-f446-4d27-9896-d1ba94025cd9",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "lastPublish",
+            "oid": "d884ecfe-6ec9-4b5b-913c-2f6dcf818f1e",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 19
+        },
+        {
+            "hidden": false,
+            "id": "99fc3e5a-efa6-4dd5-bdaf-a05c39b0dac5",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "datasource_title",
+            "oid": "984a7fba-c155-4e4f-abd4-35c146bcead7",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "01275d20-7323-4bdc-be2c-097cc84ddd5f",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Last_usage_date_dashboard",
+            "oid": "141d454d-f7d5-4501-a0cf-15b4018a9775",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 19
+        },
+        {
+            "hidden": false,
+            "id": "e191bf29-af31-45fb-bb2f-b07f2138900e",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "dash_url",
+            "oid": "da4f776d-1a5e-433f-8851-8bbcd0782db4",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "41386a8e-e1aa-4fb0-961d-187324a6c4b3",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "is_dashboard_exist",
+            "oid": "61718870-81ac-4872-a07b-d29c76314e4a",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        }
+    ],
+    "dataset": "f77166e5-2e7f-485c-b167-606697cf98e2",
+    "description": null,
+    "expression": {
+        "expression": "./table.sql",
+        "isDatabaseDialect": false,
+        "oid": "3088eb59-ec2c-4f8e-91ff-556a9b264d4d"
+    },
+    "hidden": false,
+    "id": "Dim_Dashboards",
+    "isMaterialized": null,
+    "name": "Dim_Dashboards",
+    "oid": "7d9e899f-7c3e-471d-abf2-25e54d9d27ce",
+    "tags": null,
+    "tupleTransformations": [
+    ],
+    "type": "custom"
+}

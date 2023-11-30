@@ -1,0 +1,82 @@
+{
+    "buildBehavior": {
+        "accumulativeConfig": null,
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "7cf4a13d-7421-4a7f-be9c-d144de7fe3da",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "user_id",
+            "oid": "e4affd22-1e85-4fe9-8d25-2714c04a345d",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "4f7ae271-a773-461d-8dc1-14f15a00379f",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "dashboard_external_id",
+            "oid": "98912d43-3432-487c-8888-0d195aec447b",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "3628f351-46b7-466a-814b-87f83aa4a1c5",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "timeStamp",
+            "oid": "eafbfee4-3099-4837-bf3e-e7bfffce1094",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 19
+        },
+        {
+            "hidden": false,
+            "id": "719fe136-999c-4cc3-bc1f-aa63cd547429",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "datenum",
+            "oid": "17b0d6ac-929f-41de-b2b3-f496ffb824a3",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "3575586d-c13f-4aaa-a821-f85b51f13a32",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "counter",
+            "oid": "0b758f19-0900-46cd-ad65-0b229ad98d88",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        }
+    ],
+    "dataset": "84d8b455-e675-479f-a9ad-09d367116876",
+    "expression": {
+        "expression": "./table.sql",
+        "isDatabaseDialect": false,
+        "oid": "011158db-2c2e-42e2-bf65-6aab4ad0fc2b"
+    },
+    "hidden": false,
+    "id": "fact_usage",
+    "isMaterialized": null,
+    "name": "fact_usage",
+    "oid": "2954461b-794b-48f8-9c52-1a18859ad528",
+    "tupleTransformations": [
+    ],
+    "type": "custom"
+}

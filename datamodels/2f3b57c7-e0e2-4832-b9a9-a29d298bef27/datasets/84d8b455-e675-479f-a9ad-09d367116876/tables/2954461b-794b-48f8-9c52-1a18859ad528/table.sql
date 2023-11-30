@@ -1,0 +1,1 @@
+"select\n    u.[userId] as user_id,\n    u.[dashboardId] as dashboard_external_id, u.[timeStamp],\n    (GetYear(u.[timeStamp]) * 10000 + GetMonth(u.[timeStamp]) * 100 + GetDay(u.[timeStamp])) as datenum,\n    1 as counter\nfrom\n    [Usage] u\nwhere \n    u.[dashboardId] is not null"

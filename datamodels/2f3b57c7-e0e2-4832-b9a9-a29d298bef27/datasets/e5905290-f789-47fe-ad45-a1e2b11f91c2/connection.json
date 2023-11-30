@@ -1,0 +1,6 @@
+{
+    "name": "",
+    "oid": "7e23be38-0c01-43fe-9bf4-8936cfdc0023",
+    "provider": "mongodb",
+    "schema": "TempTableQuerySchema"
+}

@@ -1,0 +1,46 @@
+{
+    "buildBehavior": {
+        "accumulativeConfig": null,
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "d8c477dd-3f30-47e0-9deb-84bd914d7b6e",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "dash_id",
+            "oid": "62ce1791-8660-4b18-b7d6-755b57e310ab",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "57695a17-6535-4d09-a9a9-9b45ac3de3b4",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "dashboard_name",
+            "oid": "6dc52538-29d2-409a-9a28-e692062b9e7e",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        }
+    ],
+    "dataset": "55fe2323-95b6-4ced-8cda-ed47d6543770",
+    "expression": {
+        "expression": "./table.sql",
+        "isDatabaseDialect": false,
+        "oid": "5c2acb08-10bb-4dce-b54a-159bdbb8be8a"
+    },
+    "hidden": false,
+    "id": "New Custom",
+    "isMaterialized": null,
+    "name": "Dashboard_List",
+    "oid": "2874af31-5f2a-4f37-abc3-ba278ba75b31",
+    "tupleTransformations": [
+    ],
+    "type": "custom"
+}

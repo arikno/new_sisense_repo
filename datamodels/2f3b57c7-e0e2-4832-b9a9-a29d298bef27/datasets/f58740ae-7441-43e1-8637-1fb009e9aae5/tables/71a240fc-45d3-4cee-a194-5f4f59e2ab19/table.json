@@ -1,0 +1,81 @@
+{
+    "buildBehavior": {
+        "accumulativeConfig": null,
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": true,
+            "id": "dashboard_id",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "dashboard_id",
+            "oid": "6b077399-ecd8-4f80-bca6-3ee8dbc3a80b",
+            "precision": 255,
+            "scale": 0,
+            "size": 255,
+            "type": 18
+        },
+        {
+            "hidden": true,
+            "id": "object_type",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "object_type",
+            "oid": "9f87ca26-ebfa-4263-af5d-eacb0adce120",
+            "precision": 255,
+            "scale": 0,
+            "size": 255,
+            "type": 18
+        },
+        {
+            "hidden": true,
+            "id": "user_group_id",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "user_group_id",
+            "oid": "8bfdf760-ba0d-4de0-bab4-388f79ec1bd9",
+            "precision": 255,
+            "scale": 0,
+            "size": 255,
+            "type": 18
+        },
+        {
+            "hidden": true,
+            "id": "shared_counter",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "shared_counter",
+            "oid": "20692d68-319c-4873-9c07-c284af6470a0",
+            "precision": 3,
+            "scale": 0,
+            "size": 4,
+            "type": 20
+        },
+        {
+            "hidden": true,
+            "id": "fake_date_num",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "fake_date_num",
+            "oid": "f9a2e61f-3be6-4c04-8303-49eb7a3e2b51",
+            "precision": 5,
+            "scale": 0,
+            "size": 6,
+            "type": 16
+        }
+    ],
+    "configOptions": {
+        "importQuery": "SELECT ds._id as dashboard_id,\n    ds.type as object_type,\n    ds.shareid as user_group_id,\n    1 as shared_counter,\n    -1 as fake_date_num\n\nFROM \"prismWebDB\".\"dashboards_shares\" ds"
+    },
+    "dataset": "f58740ae-7441-43e1-8637-1fb009e9aae5",
+    "hidden": true,
+    "id": "tq_4G5svVTa9",
+    "isMaterialized": false,
+    "name": "dashboards_shared",
+    "oid": "71a240fc-45d3-4cee-a194-5f4f59e2ab19",
+    "schemaName": "prismWebDB",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}
